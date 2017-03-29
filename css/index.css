@@ -1,0 +1,494 @@
+/* BODY */
+*{
+margin:0;
+padding:0;
+}
+
+aside{
+   
+    width: 100%;
+}
+body{
+background: url("../image/stone_texture947.jpg")no-repeat;
+background-size: cover;
+font-family: century gothic;
+font-size: 1em;
+}
+
+#social{
+display: inline-block;
+text-align: center;
+}
+
+#socialbar {
+height: 32px;
+margin-bottom: 3px;
+padding: 3px;
+
+cursor: default;
+/*-webkit-transition: padding-left 250ms ease-out;
+-moz-transition: padding-left 250ms ease-out;*/
+}
+/*#socialbar:hover{
+ padding-left: 10px;
+}*/
+
+.form{
+ display: block;
+ left: 120px;
+ position: absolute;
+ text-align: center;
+ top: 12px;
+}
+
+/* BUTTONS */
+
+#buttons{
+color: white;
+position: absolute;
+display: inline-block;
+text-align: center;
+top: 42px;
+right: 16px;
+}
+
+.button {
+background-color: rgba(0,0,0,.6); 
+border: 2px solid #fff;
+border-radius:60px;
+color: #fff;
+cursor: default;
+margin-top:6px;
+margin-right: 4px;
+padding: 2px;
+font-weight: bold;
+
+cursor: default;
+-webkit-transition: padding-left 250ms ease-out;
+-moz-transition: padding-left 250ms ease-out;
+
+/*-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+/*border-radius: 30px;*/
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 15px #fff;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+
+.button:hover {
+background-color: #fff;   
+color: #ff0033;
+font-weight: bold;
+decoration:none!important;
+}
+
+/* LOGO */
+
+#img{
+/*text-align: center;*/
+max-height: 32px;
+}
+
+#myimg{
+display: inline-block;  
+margin-bottom: 5px;
+/*Animacion rotar imagen al pasar el mouse por encima*/ 
+-webkit-transition: -webkit-transform 1s ease-out;
+ -moz-transition: -moz-transform 1s ease-out;
+ transition: transform 1s ease-out;
+ /*Animacion mover a la derecha al pasar el mouse por encima*/
+/*cursor: default;
+-webkit-transition: padding-left 250ms ease-out;
+-moz-transition: padding-left 250ms ease-out;*/
+}
+#myimg:hover{
+ /*Animacion rotar imagen al pasar el mouse por encima*/   
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ transform: rotate(360deg);   
+ /*Animacion mover a la derecha al pasar el mouse por encima*/   
+/*padding-left: 20px;*/
+}
+
+/* FORMS */
+
+.form>contDesplegable{
+text-align: left;
+border: 2px solid #ff0033;
+display: block;
+display: inline-block;
+margin-top: 2px;
+ }
+
+/* CONTENT DESPLEGABLE*/
+
+.contDesplegable {
+ display: inline-block;
+ min-width: 100px;
+ width: 30%;
+}
+
+.contDesplegable>.hidDesplegable{
+    color: black;
+    display: none;
+    font-weight: bold;
+    position: absolute;
+    right: 53px;
+    text-align: left;
+    z-index: 15;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px #000000;
+    border: 2px solid #ff0033;
+    text-align: left;
+    
+}  
+
+ .contDesplegable:hover>.hidDesplegable{
+display: inline-block;
+}
+
+/* MENU */
+
+section{
+    width:100%;
+}
+section nav{
+    width: 100%;
+    background:#ff0033;
+}
+.menu_bar{
+    display: none;
+}
+section nav ul{
+    list-style: none;
+}
+section nav ul li{
+    display: inline-block;
+}
+section nav ul li a{
+    text-decoration: none!important;
+    color:#fff;
+    display: block;
+    padding: 20px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;	
+}
+section nav ul li a:hover{
+    background:rgba(9, 9, 9, 0.85);
+    color: #ff0033;
+}
+section nav ul li a span{
+    margin-right:.3em;
+}
+
+
+#menu{
+    background-color: rgba(0,0,0,.6);
+    box-shadow: 0 0 15px white;
+    margin-top: 2px;
+    margin-bottom: 40px;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+/*.menubutton{
+background-color: #ff0033; 
+border: 5px solid #ff0033;
+color: Black;
+cursor: default;
+display: inline-block;
+margin-top:2px;
+padding-left: 4px;
+padding-right: 4px; 
+font-weight: bold;
+width: 100%;
+
+/*-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+/*border-radius: 30px;*/
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+/*-moz-box-shadow: 0px 0px 20px #000000;
+-webkit-box-shadow: 0px 0px 20px #000000;
+box-shadow: 0px 0px 10px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS}*/
+    
+/*.menubutton:hover{
+color: white;
+font-weight: bold;
+    
+}*/
+
+h2{
+    text-align: center;
+    font-style: oblique;  
+    text-shadow: 0.3 em red;
+    
+    cursor: default;
+    -webkit-transition: padding-left 250ms ease-out;
+    -moz-transition: padding-left 250ms ease-out;
+}
+h2:hover{
+     padding-left: 10px;
+}
+
+/* LINKS*/
+
+a{
+color: black;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:hover {
+color: #ff0033;
+font-weight: bold;
+}
+/*
+.middle>section> nav {
+height: 100%;
+width: 225px;
+padding-top: 3px;
+display: inline-block;
+}
+
+.middle ul {
+display: block;
+padding-left: 50px;
+padding-top: 4px;
+
+}
+
+.middle ul > li {
+display: block;
+padding: 3px;
+text-align: center;
+cursor: default;
+-webkit-transition: padding-left 250ms ease-out;
+-moz-transition: padding-left 250ms ease-out;
+}
+
+.middle ul > li:hover{
+padding-left: 10px;
+}*/
+
+/* SLIDER */
+#myslider{
+    display: inline-block;  
+    height:32%;
+    width:100%;   
+}
+
+/* FOOTER */ 
+
+body>footer {
+color: white;
+display: block;
+margin-top: 1%;
+padding-bottom: 6px;
+padding-top: 2px;
+text-align: center;
+vertical-align:bottom;
+}
+
+#pie {
+    background-color: rgba(0,0,0,.6);
+    /*box-shadow: 0 3px #ff0033;*/
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    height: 40px;
+    /*margin-top: 1px;*/
+    vertical-align: bottom;
+}
+
+.TableContainer{
+   display:inline-block;
+}
+
+#Resptable{
+    /*background-color: #eeeeee;*/
+    /*border: 5px solid;*/
+    /*border-color:#ff0033;*/
+    /*box-shadow: 5px 0px 5px 0px;*/
+    display: inline-block;
+}
+
+table{
+  /*border: 2px solid #ff0033;*/
+  font-size: .9em;
+  box-shadow: 0 0 10px #ff0033;
+  /*border-radius: 5px;*/
+  width:100%;
+  border-collapse:collapse;
+  overflow:scroll;
+  
+}
+th{
+   text-align: left;
+}
+thead{
+  font-weight: bold;
+  background:#ff0033;
+  color: #fff;
+  /*box-shadow: 0px 0px 10px #000000;*/
+  border:2px solid #ff0033;
+}
+td, th {
+  padding: 1em .5em;
+  vertical-align: middle;
+}
+td {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+
+h2{
+    text-align: center;
+    font-style: oblique;  
+    text-shadow: 0.3 em red;
+    
+    cursor: default;
+    -webkit-transition: padding-left 250ms ease-out;
+    -moz-transition: padding-left 250ms ease-out;
+}
+h2:hover{
+     padding-left: 10px;
+}
+
+
+
+
+@media screen and (max-width: 380px){
+
+.contDesplegable{
+  width:100%;
+  }
+.contDesplegable:hover>.hidDesplegable{
+background-color: whitesmoke;	
+}
+#socialbar {
+  width: 3%;
+ } 
+.flex-container {
+    min-width: 150px;
+    max-width: 960px;
+}
+
+.flexslider {
+    margin-top: 19px;
+}
+
+#img {
+    text-align: center;
+    width: 284px;
+}
+#buttons {
+    display: inline-flex;
+    position: absolute;
+    right: 45px;
+    text-align: center;
+    top: 180px;
+}
+
+
+#buttons {
+    display: inline-flex;
+    position: absolute;
+    right: 45px;
+    text-align: center;
+    top: 185px;
+}
+
+#menu {
+    margin-top: 68px;
+    max-width: 94%;
+    text-align: center;
+    text-decoration: none;
+}
+.form {
+    display: block;
+    left: 196px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+}
+}
+@media screen and (max-width: 600px) {
+table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  th {
+    text-align: right;
+  }
+  table {
+    position: relative; 
+    padding-bottom: 0;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    
+  }
+  thead {
+    float: left;
+    white-space: nowrap;
+  }
+  
+  tbody {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    white-space: nowrap;
+    box-shadow: 0px 0px 10px #000000;
+  }
+  
+  tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  th {
+    border-bottom: 1px solid #a39485;
+  }
+  
+  td {
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0px 0px 1px #000000;
+  }
+  
+  section nav{
+		width: 100%;
+		left:-100%;
+		position: absolute;
+	}
+
+	section nav ul li{
+		display: block;
+		border-bottom: 1px solid rgba(255,255,255,.4);
+	}
+
+	.menu_bar{
+		display: block;
+		width: 100%;
+	}
+
+	.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		text-decoration: none;
+		font-weight: bold;
+		background:rgba(0,0,0,.6);
+		font-size:25px;
+		color:#fff;
+	}
+
+	.menu_bar span{
+		float: right;
+		font-size:40px;
+	}
+
+}
